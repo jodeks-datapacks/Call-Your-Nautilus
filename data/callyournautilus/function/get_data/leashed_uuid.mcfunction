@@ -1,0 +1,1 @@
+$execute as @e[type=nautilus,nbt={UUID:$(nautilus_UUID_from_horn)}] if data entity @s leash run data modify storage callyournautilus:root nautilus_leashed_UUID set from entity @s leash.UUID

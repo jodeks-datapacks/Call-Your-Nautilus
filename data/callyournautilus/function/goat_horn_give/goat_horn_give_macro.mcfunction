@@ -1,0 +1,3 @@
+$item replace entity @s hotbar.$(goat_horn_slot) with goat_horn[custom_name='$(nautilus_name)',lore=[{color:"dark_purple",italic:false,text:"Owner: $(player_name)"}],custom_data={tag:{goat_horn_to_call_nautilus:1b},nautilus_call:{UUID:$(nautilus_UUID_to_call),UUID_0:$(nautilus_UUID_to_call_0)}},enchantment_glint_override=true,instrument="$(goat_horn_instrument)"]
+
+$scoreboard players add $(nautilus_UUID_to_call_0) callyournautilus.bound_goat_horns 1

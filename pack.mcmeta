@@ -1,0 +1,42 @@
+{
+  "pack": {
+    "min_format": [94,0],
+    "max_format": [999,0],
+
+    "pack_format": 94,
+    "supported_formats": [94,999],
+    "description": [
+      {
+        "text": "\"Call Your Nautilus\" (callyournautilus)"
+      },
+      "\n",
+      {
+        "text": "Easily call (whistle) your Nautilus with a goat horn to teleport it to you",
+        "color": "#aaaaaa"
+      },
+      "\n\n",
+      {
+        "text": "Version "
+      },
+      {
+        "text": "1.0.0",
+        "color": "#55ff55"
+      },
+      {
+        "text": " for Minecraft "
+      },
+      {
+        "text": "1.21.11+",
+        "color": "#55ff55"
+      },
+      "\n",
+      {
+        "text": "by "
+      },
+      {
+        "text": "Jodek",
+        "color": "#ffff55"
+      }
+    ]
+  }
+}
