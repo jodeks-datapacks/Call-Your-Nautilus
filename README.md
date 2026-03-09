@@ -1,54 +1,57 @@
-# Call Your Nautilus
-
-<div style="display: flex; gap: 20px;">
-<a href="https://ko-fi.com/H2H011LYHJ"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"/></a>
+<div align="center">
   
-<a href="https://github.com/sponsors/Jodekq" target="_blank">
-  <img src="https://img.shields.io/badge/Sponsor-Jodek-green?style=for-the-badge&logo=github&logoWidth=20" alt="Sponsor @Jodek" />
-</a>
+![minecraft nautilus datapack call your nautilus mod whistle nautilus](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/callyournautilusv1.png)
+
 </div>
 
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/tip.svg">
-  <img alt="Tip" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/tip.svg">
-</picture>
- 
-Questions or issues? -> [discord server](https://discord.gg/z2n3qTzQY6) | _or create an issue on github_
+<div align="center">
 
-### Easily call your Nautilus with a goat horn whenever you need it
+[![jodeks discord - discord badge - pixel badge - pixel discord badge - jodeks datapacks - datapacks discord](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/Discord.png)](https://discord.gg/z2n3qTzQY6)&nbsp;&nbsp;
+[![matrix - datapacks matrix - jodeks datapacks matrix](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/Matrix.png)](https://matrix.to/#/#jodeks_datapacks:matrix.org)&nbsp;&nbsp;
+[![armor stand arms minecraft datapack github issues](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/GH_Issues.png)](https://github.com/jodeks-datapacks/Call-Your-Nautilus/issues)&nbsp;&nbsp;
+[![jodeks datapacks kofi - jodek kofi - minecraft datapack kofi donation](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/Kofi.png)](https://ko-fi.com/jodek)&nbsp;&nbsp;
+[![github sponsor jodek donation datapacks minecraft](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/GH_Sponsor_Pink.png)](https://github.com/sponsors/Jodekq)
 
-_The Nautilus can be anywhere, it always works to teleport it to you, even in unloaded chunks_
+</div>
+
+### Easily call your nautilus with a goat horn whenever you need it
+
+_The nautilus can be anywhere, it always works to teleport it to you, even in unloaded chunks_
 
 ## How it works
 
-**1.** Give the Nautilus any name (it can't have special characters like # or ')
+**1.** Tame a nautilus
 
-**2.** Hold any goat horn you want in your hand
+**2.** Give the nautilus any name (it can not include special characters like # or ')
 
-**3.** Sneak and look at the Nautilus for 4 seconds
+**3.** Hold any goat horn you want in your hand
 
-**5.** You will then get a horn that looks enchanted and has the name of the Nautilus
+**4.** Sneak and look at the nautilus for 4 seconds
 
-**6.** Whenever you use the horn, it will teleport to you
+**4.** You will then get a horn that looks enchanted and has the name of the nautilus
 
---> Anyone with the horn can call the Nautilus
+**5.** Whenever you use the horn, it will teleport to you
+
+--> Only the owner of the nautilus can get the goat horn + use the goat horn to call the nautilus (you can change that with the config)
 
 --> To unbind/reset the horn, sneak + look directly up
 
-**Leashed entities also teleport with the Nautilus (make sure to first attach the leash to the Nautilus, and then to the entity)**
+---
+
+**Works for** nautilus and zombie nautilus **by default**
 
 ## Config
 
 ```
 /trigger callyournautilus.config
 ```
-You can configure 4 things:
-- If players can sit on the Nautiluss if you teleport it (enabled by default)
-- If players should automatically mount the Nautilus after calling it (disabled by default)
-- If the player calling the nautilus has to be in water to call it (enabled by default)
-- If only the first player who bound a horn to a Nautilus can bound more horns to it (disabled by default)
-  - To make the Nautilus free for other players again, the player needs to unbind every horn bound to the Nautilus
 
+- You can change if you autoamtically mount the nautilus
+- You can change if the player needs to be in water to call it
+
+## Showcase
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7kVfUDHsRTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Guides
 

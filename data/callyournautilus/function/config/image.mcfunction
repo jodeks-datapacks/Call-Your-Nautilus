@@ -16,7 +16,7 @@ function callyournautilus:image/set_image_data {\
     "Call Your Nautilus",\
     {text: "Easily Easily call (whistle) your Nautilus with a goat horn to teleport it to you", color: "#aaaaaa"},\
     "",\
-    [{text: "Datapack version: ", color: "#00a800"}, {text: "v1.0.0", color: "#54fc54"}],\
+    [{text: "Datapack version: ", color: "#00a800"}, {text: "v1.0.2", color: "#54fc54"}],\
     [{text: "Game version: ", color: "#00a800"}, {text: "1.21.11+", color: "#54fc54"}],\
     "",\
     [{text: "By ", color: "#fcfcfc"}, {text: "Jodek", color: "#fcfc54"}],\
