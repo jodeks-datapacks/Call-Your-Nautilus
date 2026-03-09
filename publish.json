@@ -1,0 +1,15 @@
+{
+  "project_id": "K9DyYgW3",
+  "curseforge_project_id": "1481955",
+  "curseforge_mod_project_id": "1481956",
+  "curseforge_slug": "call-your-nautilus",
+  "loaders": [
+    "datapack"
+  ],
+  "game_versions": [
+    "1.21.11"
+  ],
+  "version_type": "release",
+  "dependencies": "",
+  "discord_role_id": "1447239215413727333"
+}
