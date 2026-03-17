@@ -1,10 +1,8 @@
 {
   "pack": {
+    "pack_format": 94,
     "min_format": [94,0],
     "max_format": [999,0],
-
-    "pack_format": 94,
-    "supported_formats": [94,999],
     "description": [
       {
         "text": "\"Call Your Nautilus\" (callyournautilus)"
