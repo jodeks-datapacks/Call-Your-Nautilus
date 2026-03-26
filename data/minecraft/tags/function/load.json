@@ -1,6 +1,6 @@
 {
   "values": [
-    "callyournautilus:load",
-    "callyournautilus:load_message"
+    "call_your_nautilus:setup",
+    "call_your_nautilus:load_message"
   ]
 }

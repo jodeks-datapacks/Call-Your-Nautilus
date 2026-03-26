@@ -1,1 +1,0 @@
-data modify storage callyournautilus:root goat_horn_slot set from entity @s SelectedItemSlot
