@@ -9,19 +9,31 @@
       },
       "\n",
       {
-        "text": "Easily call (whistle) your Nautilus with a goat horn to teleport it to you",
+        "translate": "call_your_nautilus.description",
+        "fallback": "Easily call (whistle) your Nautilus with a goat horn to teleport it to you",
         "color": "#aaaaaa"
       },
       "\n\n",
       {
-        "text": "Version "
+        "translate": "jodek.version",
+        "fallback": "Version"
+      },
+      {
+        "text": " "
       },
       {
         "text": "1.0.3",
         "color": "#55ff55"
       },
       {
-        "text": " for Minecraft "
+        "text": " "
+      },
+      {
+        "translate": "jodek.for_minecraft",
+        "fallback": "for Minecraft"
+      },
+      {
+        "text": " "
       },
       {
         "text": "1.21.11+",
@@ -29,7 +41,11 @@
       },
       "\n",
       {
-        "text": "by "
+        "translate": "jodek.by",
+        "fallback": "by"
+      },
+      {
+        "text": " "
       },
       {
         "text": "Jodek",
