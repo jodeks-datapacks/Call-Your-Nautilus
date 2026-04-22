@@ -1,6 +1,6 @@
 execute as @s run function jodek:api/data/get/uuid with storage call_your_nautilus:root data
 
-function call_your_nautilus:app/bind/set_owner with storage call_your_nautilus:root data
+execute as @e[predicate=call_your_nautilus:callable,limit=1,tag=jodek.bind_target] unless data entity @s Owner run function call_your_nautilus:app/bind/set_owner with storage call_your_nautilus:root data
 
 execute as @e[predicate=call_your_nautilus:callable,limit=1,tag=jodek.bind_target] run function jodek:api/data/get/owner with storage call_your_nautilus:root data
 

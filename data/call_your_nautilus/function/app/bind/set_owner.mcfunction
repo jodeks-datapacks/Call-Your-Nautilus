@@ -1,1 +1,1 @@
-$data modify entity @e[predicate=call_your_nautilus:callable,limit=1,tag=jodek.bind_target] Owner set value $(UUID)
+$data modify entity @s Owner set value $(UUID)

@@ -55,7 +55,7 @@ $dialog show @s {\
       },\
       "action": {\
         type:"dynamic/run_command",\
-        template:"function call_your_nautilus:config/save_config {player_in_water_check:$(player_in_water_check), dialog_no_player_on_nautilus:$(dialog_no_player_on_nautilus), dialog_mount_automatically:$(dialog_mount_automatically)}"\
+        template:"function call_your_nautilus:config/save_config {dialog_player_in_water_check:$(dialog_player_in_water_check), dialog_no_player_on_nautilus:$(dialog_no_player_on_nautilus), dialog_mount_automatically:$(dialog_mount_automatically)}"\
       }\
     }\
   ]\

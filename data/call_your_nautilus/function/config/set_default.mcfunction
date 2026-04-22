@@ -8,4 +8,4 @@ data modify storage call_your_nautilus:root data.dialog_mount_automatically set 
 
 execute unless data storage call_your_nautilus:root data.player_in_water_check run data modify storage call_your_nautilus:root data.player_in_water_check set value 0
 execute unless score &player_in_water_check call_your_nautilus.config = &player_in_water_check call_your_nautilus.config run scoreboard players set &player_in_water_check call_your_nautilus.config 0
-data modify storage call_your_nautilus:root data.dialog_player_in_water set value "$(dialog_player_in_water)"
+data modify storage call_your_nautilus:root data.dialog_player_in_water_check set value "$(dialog_player_in_water_check)"
