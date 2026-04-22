@@ -1,1 +1,0 @@
-$data modify entity @e[limit=1,tag=nautilus_to_call] data set value {Owner:$(Owner)}

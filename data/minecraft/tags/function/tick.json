@@ -1,5 +1,5 @@
 {
   "values": [
-    "call_your_nautilus:main"
+    "call_your_nautilus:app/main"
   ]
 }

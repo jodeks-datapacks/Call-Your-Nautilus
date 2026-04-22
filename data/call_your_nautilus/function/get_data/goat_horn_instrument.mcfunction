@@ -1,1 +1,0 @@
-data modify storage call_your_nautilus:root data.goat_horn_instrument set from entity @s SelectedItem.components."minecraft:instrument"

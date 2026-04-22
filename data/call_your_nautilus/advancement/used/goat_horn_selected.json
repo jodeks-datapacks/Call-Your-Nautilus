@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "used_goat_horn_selected": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:goat_horn",
+                  "components": {
+                    "minecraft:custom_model_data": {
+                      "floats": [1.0]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&time_since_goat_horn_use"
+              },
+              "score": "call_your_nautilus.check"
+            },
+            "range": 0
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "call_your_nautilus:app/call/start_selected_item"
+  }
+}
