@@ -3,7 +3,7 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "type": "#call_your_nautilus:nautilus"
+      "minecraft:entity_type": "#call_your_nautilus:nautilus"
     }
   }
 ]

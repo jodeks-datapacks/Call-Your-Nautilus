@@ -9,16 +9,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:player",
+              "minecraft:type_specific/player": {
                 "looking_at": {
-                  "type": "#call_your_nautilus:nautilus",
-                  "distance": {
-                    "absolute": {
-                      "min": 0,
-                      "max": 10
-                    }
-                  }
+                  "minecraft:entity_type": "#call_your_nautilus:nautilus"
                 }
               }
             }
