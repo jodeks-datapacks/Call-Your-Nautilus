@@ -20,11 +20,11 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "minecraft:type_specific/player": {
+              "type_specific/player": {
                 "advancements": {
                   "jodek:call_your_nautilus": true,
                   "jodek:root": true,
-                  "jodek:utility": true
+                  "jodek:pets": true
                 }
               }
             }
